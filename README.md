@@ -100,4 +100,4 @@ This project is built on the philosophy of **Data Sovereignty**. Unlike commerci
 
 ---
 
-*Academic prototype developed by Sannan Adil as a Final Year Project of Computer Science Degree at Qauid-i-Azam University, Islamabad.*
+*Academic prototype developed by Sannan Adil as a Final Year Project of Computer Science Degree at Quaid-i-Azam University, Islamabad.*
