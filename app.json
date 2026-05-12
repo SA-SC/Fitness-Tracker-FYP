@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Fitness Tracker",
+    "slug": "fitness-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.sannanbuild.fitnesstracker",
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.CALL_PHONE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      ["react-native-ble-plx", { "isBackgroundEnabled": false }],
+      ["expo-notifications", {
+        "icon": "./assets/icon.png",
+        "color": "#E63946"
+      }]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7d58d7a7-83ff-453a-89ef-af541294a714"
+      }
+    }
+  }
+}
